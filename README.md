@@ -26,5 +26,5 @@ python3 setup.py install
 #!/bin/bash
 IP=$(curl https://checkip.amazonaws.com)
 fdu domain forward -u http://$IP/ email passwd eample.tk
-fdu domain renew email passwd example.zk
+fdu domain renew email passwd example.tk
 ```
